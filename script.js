@@ -1,12 +1,15 @@
 const simBtn = document.getElementById('simBtn');
 const naoBtn = document.getElementById('naoBtn');
 const messageDiv = document.getElementById('message');
+const audio = document.querySelector("#audio")
 
 // Event listener for 'Sim' button
 simBtn.addEventListener('click', function() {
     clearScreen();
     messageDiv.classList.remove('hidden');
     messageDiv.textContent = "Que bom! Envie uma mensagem com o dia de sua preferência 😄";
+    audio.play();
+
 });
 
 // Event listener for 'Não' button
