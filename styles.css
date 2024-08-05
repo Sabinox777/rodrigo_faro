@@ -7,6 +7,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0b2;
     background-image: url("teste2.jpg");
+
+    background-size: contain; /* Ajusta a imagem para caber dentro do contêiner */
+    background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-position: center; /* Alinha a imagem ao centro da tela */
 }
 
 .container {
